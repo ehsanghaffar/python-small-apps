@@ -11,7 +11,19 @@
 
 
 
-num = [5, 4, 3, [2], 1]
-print(num[0])
-print(num[3][0])
-print(num[5])
+# num = [5, 4, 3, [2], 1]
+# print(num[0])
+# print(num[3][0])
+# print(num[5])
+
+
+# list functions
+# items = [2, 4, 6, 8, 10, 12, 14]
+# number_of_elements = (len(items) // 2)
+# print(number_of_elements)
+
+
+nums = [9, 8, 7, 6, 5]
+nums.append(4)
+nums.insert(2, 11)
+print(len(nums))
